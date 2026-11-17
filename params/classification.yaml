@@ -1,0 +1,17 @@
+# Station classification rule, Equation (1), Section 3.2.1.
+# The class labels used in the paper are those stored in
+# data/processed/stations_classified.csv (column station_class), produced by the
+# authors' MATLAB script in matlab/original/. The values below document that rule.
+# >>> AUTHORS: confirm these against matlab/original before the final release <<<
+
+highway_terms:                  # Keyword_s = 1 if name/address tags contain any term (case-insensitive)
+  - highway
+  - hwy
+  - expressway
+  - freeway
+  - "road no"
+  - "طريق"                      # Arabic: road / highway
+  - "سريع"                      # Arabic: express
+urban_min_city_population: 500000      # municipality population for "urban"
+periurban_min_city_population: 50000   # municipality population for "peri-urban"
+highway_max_distance_km: 2.0           # Haversine distance to nearest national highway corridor
