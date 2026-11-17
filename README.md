@@ -6,7 +6,7 @@ Code, data and parameter files for
 
 The repository contains everything needed to rerun the framework, from the OpenStreetMap fuel-station extract through regional demand, charger sizing, station-level allocation, the Coverage Gap Index, the sensitivity analysis and the techno-economic estimates. Running one script recomputes **all regional and national figures in Tables 3–6 and 8 and in Sections 4.3, 4.6 and 4.8** and checks them against the values printed in the paper.
 
-[![tests](https://github.com/ateahalzahrani/EPSR-EV-Charging-KSA/actions/workflows/tests.yml/badge.svg)](https://github.com/ateahalzahrani/EPSR-EV-Charging-KSA/actions/workflows/tests.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24304065.svg)](https://doi.org/10.5281/zenodo.24304065) [![tests](https://github.com/ateahalzahrani/EPSR-EV-Charging-KSA/actions/workflows/tests.yml/badge.svg)](https://github.com/ateahalzahrani/EPSR-EV-Charging-KSA/actions/workflows/tests.yml)
 
 ---
 
@@ -109,7 +109,11 @@ To test a different assumption, edit `params/model_parameters.yaml` and rerun `p
 
 ## Citation
 
-Please cite the paper and this repository (see [`CITATION.cff`](CITATION.cff)). A permanent DOI for the release is provided through Zenodo.
+Please cite the paper and this repository (see [`CITATION.cff`](CITATION.cff)):
+
+> Alzahrani, A. (2026). *EPSR-EV-Charging-KSA: code and data for planning EV charging infrastructure in Saudi Arabia*. Zenodo. https://doi.org/10.5281/zenodo.24304065
+
+The DOI above always resolves to the latest version; version 1.0.0 is archived as https://doi.org/10.5281/zenodo.24304066.
 
 ## Contact
 
