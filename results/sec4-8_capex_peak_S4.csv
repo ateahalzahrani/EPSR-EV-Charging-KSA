@@ -1,0 +1,2 @@
+scenario,capex_equipment_busd,capex_installed_busd,capex_per_year_busd_low,capex_per_year_busd_high,avg_load_gw,avg_load_from_capacity_gw,installed_capacity_gw,installed_AC_gw,installed_DC_gw,coincident_peak_gw,annual_installs_AC,annual_installs_DC
+S4,7.3564475,15.2617555,0.6130372916666667,1.2718129583333333,1.9763013698630139,1.97634324,14.4932116,7.9052616,6.58795,2.9644520547945206,91496.08333333333,10979.916666666666

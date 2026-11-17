@@ -1,0 +1,4 @@
+threshold,n_underserved,regions
+0.85,4,Northern Borders; Jazan; Al Baha; Al Jouf
+0.9,5,Northern Borders; Jazan; Najran; Al Baha; Al Jouf
+0.95,6,Aseer; Northern Borders; Jazan; Najran; Al Baha; Al Jouf
