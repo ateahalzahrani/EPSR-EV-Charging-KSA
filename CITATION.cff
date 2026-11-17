@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this repository."
+title: "EPSR-EV-Charging-KSA: code and data for planning EV charging infrastructure in Saudi Arabia"
+authors:
+  - family-names: Alzahrani
+    given-names: Ateyah
+    affiliation: "Umm Al-Qura University, Al-Qunfudhah, Makkah, Saudi Arabia"
+    email: aakzahrani@uqu.edu.sa
+version: 1.0.0
+date-released: 2026-11-17
+license: MIT
+repository-code: "https://github.com/ateahalzahrani/EPSR-EV-Charging-KSA"
+keywords: [EV charging infrastructure, Saudi Arabia, GIS, charger allocation, spatial demand modelling, Vision 2030]
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Alzahrani
+      given-names: Ateyah
+  title: "Planning Electric Vehicle Charging Infrastructure: A Data-Driven Framework for Saudi Arabia's Transition"
+  journal: "Electric Power Systems Research"
+  status: submitted
